@@ -91,3 +91,12 @@
   transform: translate(-50%, -50%);
   height: 90%;
 }
+
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: hotpink;
+  margin-top: 50rem;
+  color: white;
+  font-size: 20px;
+}

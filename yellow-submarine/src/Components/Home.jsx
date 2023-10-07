@@ -4,14 +4,12 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import '../App.css'
 
 import { useNavigate, Outlet } from 'react-router-dom';
-import Game from './Game';
 
 import TextBox from './textBox';
 
 
 function Home() {
-  const ref = useRef();
-  
+
   return (
     <>
       <div className="App">
@@ -27,11 +25,8 @@ function Home() {
           </ParallaxLayer>
           <ParallaxLayer offset={1} speed={0.25}>
             <TextBox />
-
-          </ParallaxLayer>
+            </ParallaxLayer>
         </Parallax>
-
-
       </div>
       <Outlet />
 
