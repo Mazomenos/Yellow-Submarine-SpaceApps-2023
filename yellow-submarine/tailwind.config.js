@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {},
     container: {
-      // center: true,
-      padding: '3rem',
+      center: true,
+      // padding: '3rem',
     },
   },
   plugins: [],

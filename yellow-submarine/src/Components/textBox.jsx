@@ -10,7 +10,7 @@ function TextBox() {
     }
 
     return (
-        <div id="textbox">
+        <div class="container" id="textbox">
             <div class="container">
                 <div id="textbox-container">
                     <h1 id="textbox-title">What is Firewatch?</h1>
