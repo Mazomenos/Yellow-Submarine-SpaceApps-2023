@@ -3,15 +3,22 @@
   height: 100vh;
 }
 
-#textblock-container,  {
+#textbox {
+  background-color: #0d3c64cf;
+  height: auto;
+  width: 30%;
+}
+
+#textblock-container {
   width: 50%;
   margin: 0 auto;
   padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 #textblock-title {
   color: #ffaf1b;
-  font-size: 35px;
+  font-size: 200%;
   font-weight: 600;
   font-family: "Helvetica Neue";
 }
@@ -19,6 +26,11 @@
 #textblock-content {
   color: #ffaf1b;
   font-size: 20px;
+}
+
+#textbox-content {
+  color: #ffaf1b;
+  font-size: 90%;
 }
 
 #textblock-footer {
