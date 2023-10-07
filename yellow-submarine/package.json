@@ -13,8 +13,10 @@
     "@react-spring/parallax": "^9.7.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-components": "^6.0.8",
-    "react-scroll-parallax": "^3.4.2"
+    "react-router": "^6.16.0",
+    "react-router-dom": "^6.16.0",
+    "react-scroll-parallax": "^3.4.2",
+    "styled-components": "^6.0.8"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

@@ -1,30 +1,23 @@
-import { useRef } from 'react'; 
 
-import { Parallax, ParallaxLayer } from '@react-spring/parallax'
-import './App.css'
+
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+
+import Home from './Componenentes/Home';
+import Game from './Game.jsx';
 
 
 function App() {
-  
-  const ref = useRef();
-  
   return (
-    <div className="App">
-      <Parallax pages={2} style={{ top: '0', left: '0' }} class="animation">
-        <ParallaxLayer offset={0} speed={0.25}>
-          <div class="animation_layer parallax" id="artback"></div>
-    
-        
-        </ParallaxLayer>
-        <ParallaxLayer offset={0} speed={0.3}>
-          <div class="animation_layer parallax" id="jungle1"></div>
-        </ParallaxLayer>
-        <ParallaxLayer offset={0} speed={0.40}>
-          <div class="animation_layer parallax" id="manonmountain"></div>
-        </ParallaxLayer>
-        <ParallaxLayer offset={1} speed={0.25}>
-        </ParallaxLayer>
-      </Parallax>
+    <div className='App'>
+      <Router>
+        <Routes>
+          <Route element={<Home name="Home" />} path="/" />
+          <Route element={<Game name="Game" />} path="/jueguito" />
+        </Routes>
+      </Router>
+
     </div>
   );
 }
