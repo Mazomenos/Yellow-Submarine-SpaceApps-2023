@@ -1,13 +1,10 @@
 import { useRef } from 'react';
-
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
-import '../App.css'
-
 import { useNavigate, Outlet } from 'react-router-dom';
-import Game from './Game';
 
 import TextBox from './textBox';
 
+import '../App.css'
 
 function Home() {
   const ref = useRef();
@@ -30,11 +27,8 @@ function Home() {
 
           </ParallaxLayer>
         </Parallax>
-
-
       </div>
       <Outlet />
-
     </>
   );
 }
