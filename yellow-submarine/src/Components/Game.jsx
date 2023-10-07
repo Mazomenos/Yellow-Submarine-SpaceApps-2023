@@ -3,18 +3,16 @@
 import { useRef } from 'react';
 
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
-import './App.css'
+import '../App.css'
 
 function Game() {
 
   const ref = useRef();
 
   return (
-
-        <div>
-            hola
-        </div>
-
+    <div>
+      FUNCIONA
+    </div>
   );
 }
 

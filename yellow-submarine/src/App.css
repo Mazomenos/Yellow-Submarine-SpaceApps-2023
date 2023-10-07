@@ -3,7 +3,7 @@
   height: 100vh;
 }
 
-#textblock-container,  {
+#textblock-container {
   width: 50%;
   margin: 0 auto;
   padding-top: 70px;
@@ -73,4 +73,8 @@
 
 #manonmountain {
   background-image: url("./images/man_on_mountain.png");
+}
+
+#BOTON {
+  background-color: #ffaf1b;
 }

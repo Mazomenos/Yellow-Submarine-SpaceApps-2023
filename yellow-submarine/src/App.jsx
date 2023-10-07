@@ -4,8 +4,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
-import Home from './Componenentes/Home';
-import Game from './Game.jsx';
+import Home from './Components/Home';
+import Game from './Components/Game.jsx';
 
 
 function App() {
@@ -17,7 +17,6 @@ function App() {
           <Route element={<Game name="Game" />} path="/jueguito" />
         </Routes>
       </Router>
-
     </div>
   );
 }
