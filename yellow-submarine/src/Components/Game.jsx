@@ -8,10 +8,8 @@ import '../App.css'
 function Game() {
 
   const ref = useRef();
-
   return (
-    <div>
-      FUNCIONA
+    <div id="game-screen">
     </div>
   );
 }

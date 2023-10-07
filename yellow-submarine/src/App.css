@@ -4,6 +4,7 @@
 }
 
 #textblock-container {
+  color:#ffaf1b;
   width: 50%;
   margin: 0 auto;
   padding-top: 70px;
@@ -18,13 +19,8 @@
 }
 
 #textblock-content {
-  color: #ffaf1b;
-  font-size: 20px;
-}
-
-#textbox-content {
-  color: #ffaf1b;
-  font-size: 90%;
+  color: #3d5d02;
+  font-size: 120%;
 }
 
 #textblock-footer {
@@ -38,7 +34,6 @@
   align-items:center;
   text-align:center;
   margin-bottom: 20px;
-
 }
 
 #textblock-devsense {
@@ -71,6 +66,7 @@
 
 #artback {
   background-image: url("./images/background.png");
+  width:100%;
 }
 
 #jungle1 {
@@ -79,8 +75,19 @@
 
 #manonmountain {
   background-image: url("./images/man_on_mountain.png");
+  width:100%;
 }
 
 #BOTON {
   background-color: #ffaf1b;
+}
+
+#game-screen {
+  background-color: #000000;
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 90%;
 }
