@@ -8,7 +8,7 @@ import '../App.css'
 
 function Home() {
   const ref = useRef();
-  
+
   return (
     <>
       <div className="App">
@@ -24,7 +24,6 @@ function Home() {
           </ParallaxLayer>
           <ParallaxLayer offset={1} speed={0.25}>
             <TextBox />
-
           </ParallaxLayer>
         </Parallax>
       </div>
