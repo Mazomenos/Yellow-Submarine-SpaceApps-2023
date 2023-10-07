@@ -11,13 +11,7 @@ import TextBox from './textBox';
 
 function Home() {
   const ref = useRef();
-
-  const navigate = useNavigate();
-
-  const goToGame = () => {
-    navigate(Game);
-  }
-
+  
   return (
     <>
       <div className="App">
