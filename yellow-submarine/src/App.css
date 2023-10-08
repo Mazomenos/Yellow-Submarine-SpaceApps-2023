@@ -80,7 +80,23 @@
   /* width: 100%; */
   background-repeat: no-repeat; /* Evita la repetición de la imagen */
   border:#210002 1px solid;
+  /* background-color: rgba(0, 0, 255, 1); */
   background-color: rgba(219, 234, 255, 1);
+
+}
+
+#clouds {
+  background-image: url("./images/Nubes/Nubes #6.png");
+  /* width: 100%; */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+
+
+}
+
+#sun {
+  background-image: url("./images/Sol.png");
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+
 }
 
 #BOTON {

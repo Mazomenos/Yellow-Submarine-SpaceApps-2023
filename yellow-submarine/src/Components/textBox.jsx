@@ -33,6 +33,9 @@ function TextBox() {
                         You are a man named Henry who has retreated from your messy life to work as a fire lookout in the Wyoming wilderness. Perched atop a mountain, it's your job to find smoke and keep the wilderness safe.<br /><br />
                     </div>
                 </div>
+
+                <img src="../../../images/Nubes/Nube6.png" alt="nube" />
+
             </div>
             <footer id='textblock-footer'>Demo<a id="textblock-devsense" href="https://youtube.com/c/DevSense19">DevSense</a></footer>
         </div>

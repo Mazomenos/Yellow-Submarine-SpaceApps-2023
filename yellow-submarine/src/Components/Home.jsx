@@ -7,7 +7,7 @@ import TextBox from './textBox';
 import '../App.css'
 
 function Home() {
-  const ref = useRef();
+  // const ref = useRef();
 
   return (
     <>
@@ -23,6 +23,12 @@ function Home() {
 
       <div className="App">
         <Parallax pages={2} style={{ top: '0', left: '0' }} class="animation">
+          <ParallaxLayer offset={0} speed={0}>
+            <div>
+              <img src="images/Nubes/Nube6.png" alt="nube" />
+            </div>
+          </ParallaxLayer>
+
           <ParallaxLayer offset={0} speed={0.25}>
             <div class="animation_layer parallax" id="birds">
               <div class="container pt-44">
@@ -30,11 +36,12 @@ function Home() {
                 <h1 class="text-center text-9xl "> PLANKTON </h1>
               </div>
             </div>
+          </ParallaxLayer>
 
-          </ParallaxLayer>
           <ParallaxLayer offset={0} speed={0.3}>
-            <div class="animation_layer parallax" id="jungle1"></div>
+            <div class="animation_layer parallax" id="sun"></div>
           </ParallaxLayer>
+          
           <ParallaxLayer offset={0} speed={0.40}>
             <div class="animation_layer parallax" id="manonmountain"></div>
           </ParallaxLayer>
