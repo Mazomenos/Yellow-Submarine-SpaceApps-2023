@@ -10,59 +10,35 @@ function TextBox() {
     }
 
     return (
-
-        // <div class="container" id="textbox">
-        //     <div class="container">
-        //         <div id="textbox-container">
-        //             <h1 id="textbox-title">What is Firewatch?</h1>
-        //             <p id="textbox-content">
-        //                 The year is 1989.<br /><br />
-        //                 You are a man named Henry who has retreated from your messy life to work as a fire lookout in the Wyoming wilderness. Perched atop a mountain, it's your job to find smoke and keep the wilderness safe.<br /><br />
-        //                 An especially hot, dry summer has everyone on edge. Your supervisor, a woman named Delilah, is available to youat all times over a small, handheld radio—and is your only contact with the world you've left behind.<br /><br />
-        //                 But when something strange draws you out of your lookout tower and into the world below, you'll explore a wild and unknown environment, facing questions and making interpersonal choices that can build or destroy the only meaningful relationship you have.
-        //             </p>
-        //         </div>
-        //         {/* <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={Jueguito}> hola </button> */}
-        //     </div>
-
-        //     <div class="container pt-8">
-        //         <div class="container mx-auto flex flex-row items-center">
-        //             <div class="basis-1/2">
-        //                 You are a man named Henry who has retreated from your messy life to work as a fire lookout in the Wyoming wilderness. Perched atop a mountain, it's your job to find smoke and keep the wilderness safe.
-        //             </div>
-        //             <div class="basis-1/2 mx-auto">
-        //                 <img src="./images/planktonGlobe.jpeg" alt="globe" class="w-64 h-64 object-cover rounded shadow-md" />
-
-        //             </div>
-        //         </div>
-
-        //     </div>
-
-        //     {/* <footer id='textblock-footer'>Demo<a id="textblock-devsense" href="https://youtube.com/c/DevSense19">DevSense</a></footer> */}
-
-        // </div>
-
         <>
+
+            <section>
+                <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
+                    <h2 class="mb-4 text-3xl font-extrabold text-white dark:text-white text-center">
+                    The Ocean and its organisms provide all of us with benefits and needs like access to food, oxygen
+                    and maintaining the balance of the ecosystem
+                    </h2>
+                </div>
+            </section>
+
+
             <section>
                 <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
                     <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
-                        <div class="text-gray-500 sm:text-lg dark:text-gray-400">
-                            <h1 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"> PITOPLANKTON </h1>
+                        <div class="text-white sm:text-lg dark:text-white">
+                            <h1 class="mb-4 text-3xl font-extrabold tracking-tight text-amber-500 dark:text-amber-500"> PITOPLANKTON </h1>
                             <p class="mb-8 font-light lg:text-xl">
-                                placton wow placton wow placton wow placton wow placton wow placton wow placton wow placton wow
-                                placton wow placton wow placton wow placton wow placton wow placton wow placton wow placton wow
-                                placton wow placton wow placton wow
+                                One of the organisms in the Ocean that have a big impact for us are Phythonplankton
                             </p>
-                        </div>
-                        {/* <img class="hidden w-full rounded-full lg:mb-0 lg:flex " src="./images/planktonGlobe.jpeg" alt="globe" /> */}
-                        {/* <img class="hidden w-64 h-64 rounded-full lg:mb-0 lg:flex" src="./images/planktonGlobe.jpeg" alt="globe" /> */}
+                            </div>
                         <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/planktonGlobe.jpeg" alt="globe" />
-
+                            
+                
                     </div>
                 </div>
             </section>
 
-            <section>
+            <section class="lg:py-24">
                 <figure>
                     <figure class="max-w-screen-md mx-auto">
                         <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -77,22 +53,61 @@ function TextBox() {
 
             <section>
                 <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
-
-                    <div class="text-gray-500 sm:text-lg dark:text-gray-400">
-                        <h1 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"> PITOPLANKTON </h1>
-                        <p class="mb-8 font-light lg:text-xl">
-                            placton wow placton wow placton wow placton wow placton wow placton wow placton wow placton wow
-                            placton wow placton wow placton wow placton wow placton wow placton wow placton wow placton wow
-                            placton wow placton wow placton wow
-                        </p>
+                    <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
+                        <div class="text-white sm:text-lg dark:text-white">
+                            <h1 class="mb-4 text-3xl font-extrabold tracking-tight text-amber-500 dark:text-amber-500"> PITOPLANKTON </h1>
+                            <p class="mb-8 font-light lg:text-xl">
+                                Phythonplankton are microorganisms that are plant-like and generate resources like nutrients and oxygen
+                                through photosyntesis
+                            </p>
+                            </div>
+                        <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/planktonGlobe.jpeg" alt="globe" />
+                            
+                
                     </div>
-                    
-                    <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/planktonGlobe.jpeg" alt="globe" />
-                    {/* <img class="hidden w-full rounded-full lg:mb-0 lg:flex " src="./images/planktonGlobe.jpeg" alt="globe" /> */}
-                    {/* <img class="hidden w-64 h-64 rounded-full lg:mb-0 lg:flex" src="./images/planktonGlobe.jpeg" alt="globe" /> */}
-
                 </div>
             </section>
+
+           
+            <section>
+                <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
+                    <div class="flex justify-evenly gap-8 xl:gap-16 text-white sm:text-lg dark:text-white">
+                        <div>
+                            <p>This little organisms are responsible for the start of life on the surface by providing around 50%
+                            of oxygen for the atmosphere</p>
+                        </div>
+                        <div>
+                            <p>They are also the web of the food chain in the ocean, providing nutrients to other microoganisms and
+                            small animals</p>
+                        </div>
+                        <div>
+                            <p>They also have the responsability to balance the acidity levels in the ocean with their mineral shells that
+                            from around them and are dissolved to balance the acidity around them</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            
+
+
+            <section>
+                <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6 flex flex-col justify-center">
+
+                    <div class="text-gray-500 sm:text-lg dark:text-gray-400 text-center">
+                        <h1 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"> Are you Ready? </h1>
+                        <p class="mb-8 font-light lg:text-xl">
+                            Now we are ready to embark on a journey to a distant future to restore the world with the help of the ocean.
+                        </p>
+                        <button id='BOTON' onClick={Jueguito}> PLAY! </button>
+                    </div>
+                    
+                </div>
+                
+              
+            </section>
+            
         </>
     );
 }

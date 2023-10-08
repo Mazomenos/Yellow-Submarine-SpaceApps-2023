@@ -157,19 +157,44 @@
   z-index: -1;
 }
 
+/* #logo {
+
+} */
 
 #BOTON {
-  background-color: #ffaf1b;
+  background-color: #b97d0e;
+  font-size: 5vh;
+  padding: 0 5vh;
+  color: aliceblue;
+  border: none; /* Remove the border */
+  border-radius: 0.25rem; /* Add rounded corners */
+  cursor: pointer; /* Show a pointer cursor on hover */
+  transition: background-color 0.3s ease-in-out; /* Add a smooth background color transition on hover */
 }
+
+#BOTON:hover {
+  background-color: #d6a147; /* Change the background color on hover */
+}
+
 
 #game-screen {
   background-color: #000000;
-  width: 90%;
+  width: 95%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 90%;
+  height: 95%;
+}
+
+#game-frame {
+  background-color: #c95e12;
+  width: 95%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 95%;
 }
 
 #box {
@@ -179,4 +204,15 @@
   margin-top: 50rem;
   color: white;
   font-size: 20px;
+}
+
+#ReturnButton {
+  background-color: #c95e12;
+  width: 10%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 8%;
+  color: aliceblue;
 }
