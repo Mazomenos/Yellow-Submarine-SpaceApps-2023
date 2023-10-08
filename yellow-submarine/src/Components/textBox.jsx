@@ -11,7 +11,7 @@ function TextBox() {
 
     return (
         <>
-            <section>
+            <section class="bg-blue-900 bg-opacity-50">
                 <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
                     <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
                         <div class="text-gray-500 sm:text-lg dark:text-gray-400">
@@ -30,7 +30,7 @@ function TextBox() {
                 </div>
             </section>
 
-            <section>
+            <section class="pt-5">
                 <figure>
                     <figure class="max-w-screen-md mx-auto">
                         <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
