@@ -31,7 +31,7 @@ function TextBox() {
                                 One of the organisms in the Ocean that have a big impact for us are Phythonplankton
                             </p>
                             </div>
-                        <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/planktonGlobe.jpeg" alt="globe" />
+                        <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/plankton_aereo.png" alt="globe" />
                             
                 
                     </div>
@@ -71,7 +71,7 @@ function TextBox() {
            
             <section>
                 <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
-                    <div class="flex justify-evenly gap-8 xl:gap-16 text-white sm:text-lg dark:text-white">
+                    <div class="flex justify-evenly gap-8 xl:gap-16 text-white sm:text-lg dark:text-white text-center">
                         <div>
                             <p>This little organisms are responsible for the start of life on the surface by providing around 50%
                             of oxygen for the atmosphere</p>
