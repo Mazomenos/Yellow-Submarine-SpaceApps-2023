@@ -1,0 +1,177 @@
+#textblock {
+  background-color: #210002;
+  height: 100vh;
+}
+
+#textblock-container {
+  color:#ffaf1b;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#textblock-title {
+  color: #ffaf1b;
+  font-size: 200%;
+  font-weight: 600;
+  font-family: "Helvetica Neue";
+}
+
+#textblock-content {
+  color: #3d5d02;
+  font-size: 120%;
+}
+
+#textblock-footer {
+  color: #ffaf1b;
+  font-size: 15px;
+  font-weight: 400;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#textblock-devsense {
+  text-decoration: none;
+  color: #ffaf1b;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.animation,
+.animation_layer {
+  height: 1000px;
+}
+
+.animation {
+  display: block;
+  position: relative;
+  z-index: 10;
+}
+
+.animation_layer {
+  background-position: bottom center;
+  background-size: auto 1038px;
+  background-repeat: repeat-x;
+  width: 100%;
+  position: absolute;
+}
+
+.animation_layer.parallax {
+  position: fixed;
+}
+
+#birds {
+  background-image: url("./images/birds_of_sky.png");
+  /* width: 100%; */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+}
+
+#sun {
+  background-image: url("./images/Sol.png");
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+  background-color: rgb(220, 223, 228);
+}
+
+#backMountain {
+  background-image: url("./images/MountainBack.png");
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+}
+
+#middleMountain {
+  background-image: url("./images/MountainMiddle.png");
+  background-repeat: no-repeat;
+}
+
+#astronaut {
+  background-image: url("./images/Astronaut.png");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+#firstLayer {
+  background-image: url("./images/firstLayer.png");
+  background-repeat: no-repeat;
+}
+
+#secondLayer {
+  background-image: url("./images/secondLayer.png");
+  background-repeat: no-repeat;
+}
+
+#thirdLayer {
+  background-image: url("./images/thirdLayer.png");
+  background-repeat: no-repeat;
+}
+
+#thirdLayer02 {
+  background-image: url("./images/thirdLayer02.png");
+  background-repeat: no-repeat;
+}
+
+#fourthLayer {
+  background-image: url("./images/fourthLayer.png");
+  background-repeat: no-repeat;
+}
+
+#fourthLayer02 {
+  background-image: url("./images/fourthLayer02.png");
+  background-repeat: no-repeat;
+}
+
+#fourthLayer03 {
+  background-image: url("./images/fourthLayer03.png");
+  background-repeat: no-repeat;
+}
+
+#fifthLayer {
+  background-image: url("./images/fifthLayer.png");
+  background-repeat: no-repeat;
+}
+
+#fifthLayer02 {
+  background-image: url("./images/fifthLayer02.png");
+  background-repeat: no-repeat;
+}
+
+#sixthLayer {
+  background-image: url("./images/sixthLayer.png");
+  background-repeat: no-repeat;
+}
+
+#walls {
+  background-image: url("./images/Walls.png");
+  background-repeat: no-repeat;
+  width: 200%;
+  left: 20%; /* Alineación horizontal al centro */
+  transform: translateX(-50%); /* Alineación horizontal al centro */
+}
+
+
+#BOTON {
+  background-color: #ffaf1b;
+}
+
+#game-screen {
+  background-color: #000000;
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 90%;
+}
+
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: hotpink;
+  margin-top: 50rem;
+  color: white;
+  font-size: 20px;
+}
