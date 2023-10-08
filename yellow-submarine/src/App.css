@@ -64,27 +64,92 @@
 	position: fixed;
 }
 
-#artback {
-  background-image: url("./images/background.png");
-  width:100%;
-}
-
-#jungle1 {
-  background-image: url("./images/jungle1.png");
-}
-
-#manonmountain {
-  background-image: url("./images/man_on_mountain.png");
-  width:100%;
-}
-
 #birds {
   background-image: url("./images/birds_of_sky.png");
   /* width: 100%; */
   background-repeat: no-repeat; /* Evita la repetición de la imagen */
-  border:#210002 1px solid;
-  background-color: rgba(219, 234, 255, 1);
 }
+
+#sun {
+  background-image: url("./images/Sol.png");
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+  background-color: rgb(220, 223, 228);
+}
+
+#backMountain {
+  background-image: url("./images/MountainBack.png");
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+}
+
+#middleMountain {
+  background-image: url("./images/MountainMiddle.png");
+  background-repeat: no-repeat;
+}
+
+#astronaut {
+  background-image: url("./images/Astronaut.png");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+#firstLayer {
+  background-image: url("./images/firstLayer.png");
+  background-repeat: no-repeat;
+}
+
+#secondLayer {
+  background-image: url("./images/secondLayer.png");
+  background-repeat: no-repeat;
+}
+
+#thirdLayer {
+  background-image: url("./images/thirdLayer.png");
+  background-repeat: no-repeat;
+}
+
+#thirdLayer02 {
+  background-image: url("./images/thirdLayer02.png");
+  background-repeat: no-repeat;
+}
+
+#fourthLayer {
+  background-image: url("./images/fourthLayer.png");
+  background-repeat: no-repeat;
+}
+
+#fourthLayer02 {
+  background-image: url("./images/fourthLayer02.png");
+  background-repeat: no-repeat;
+}
+
+#fourthLayer03 {
+  background-image: url("./images/fourthLayer03.png");
+  background-repeat: no-repeat;
+}
+
+#fifthLayer {
+  background-image: url("./images/fifthLayer.png");
+  background-repeat: no-repeat;
+}
+
+#fifthLayer02 {
+  background-image: url("./images/fifthLayer02.png");
+  background-repeat: no-repeat;
+}
+
+#sixthLayer {
+  background-image: url("./images/sixthLayer.png");
+  background-repeat: no-repeat;
+}
+
+#walls {
+  background-image: url("./images/Walls.png");
+  background-repeat: no-repeat;
+  width: 200%;
+  left: 20%; /* Alineación horizontal al centro */
+  transform: translateX(-50%); /* Alineación horizontal al centro */
+}
+
 
 #BOTON {
   background-color: #ffaf1b;
