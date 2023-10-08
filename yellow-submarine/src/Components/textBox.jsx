@@ -30,7 +30,7 @@ function TextBox() {
                 </div>
             </section>
 
-            <section class="lg:py-24">
+            <section class="lg:py-24 pt-5">
                 <figure>
                     <figure class="max-w-screen-md mx-auto">
                         <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -55,6 +55,7 @@ function TextBox() {
                         </p>
                     </div>
                     <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/planktonGlobe.jpeg" alt="globe" />
+                <button id='BOTON' onClick={Jueguito}> hola </button>
                 </div>
             </section>
 
