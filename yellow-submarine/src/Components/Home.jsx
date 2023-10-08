@@ -97,7 +97,7 @@ function Home() {
 
           </ParallaxLayer>
 
-          <ParallaxLayer offset={1} speed={0.8} >
+          <ParallaxLayer offset={1} speed={0.15} >
              
             <TextBox />
             <div class="animation_layer parallax" id="ocean_layer_3"></div>

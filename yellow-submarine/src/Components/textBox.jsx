@@ -89,42 +89,7 @@ function TextBox() {
             </section>
 
 
-            <section>
-                <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
-                    <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
-                        <div class="text-white sm:text-lg dark:text-white">
-                            <h1 class="mb-4 text-3xl font-extrabold tracking-tight text-amber-500 dark:text-amber-500"> PITOPLANKTON </h1>
-                            <p class="mb-8 font-light lg:text-xl">
-                                Phythonplankton are microorganisms that are plant-like and generate resources like nutrients and oxygen
-                                through photosyntesis
-                            </p>
-                            </div>
-                        <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/planktonGlobe.jpeg" alt="globe" />
-                            
-                
-                    </div>
-                </div>
-            </section>
-
-           
-            <section>
-                <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
-                    <div class="flex justify-evenly gap-8 xl:gap-16 text-white sm:text-lg dark:text-white">
-                        <div>
-                            <p>This little organisms are responsible for the start of life on the surface by providing around 50%
-                            of oxygen for the atmosphere</p>
-                        </div>
-                        <div>
-                            <p>They are also the web of the food chain in the ocean, providing nutrients to other microoganisms and
-                            small animals</p>
-                        </div>
-                        <div>
-                            <p>They also have the responsability to balance the acidity levels in the ocean with their mineral shells that
-                            from around them and are dissolved to balance the acidity around them</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            
 
 
             <section>
