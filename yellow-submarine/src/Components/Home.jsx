@@ -24,7 +24,7 @@ function Home() {
       </div> */}
 
       <div className="App">
-        <Parallax pages={4.3} style={{ top: '0', left: '0' }} class="animation">
+        <Parallax pages={4} style={{ top: '0', left: '0' }} class="animation">
           <ParallaxLayer offset={0} speed={0.20}>
             <div class="animation_layer parallax" id="sun">
               <div>
@@ -105,8 +105,7 @@ function Home() {
           </ParallaxLayer>
 
           <ParallaxLayer offset={3.9} speed={0.25} class="bg-blue-900 bg-opacity-50">
-            <Footer />
-
+            {/* <Footer /> */}
           </ParallaxLayer>
 
         </Parallax>
