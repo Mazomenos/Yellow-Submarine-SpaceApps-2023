@@ -28,9 +28,9 @@
   position: fixed;
   width: 100%;
   bottom: 0px;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   margin-bottom: 20px;
 
 }
@@ -42,25 +42,27 @@
   font-weight: 600;
 }
 
-.animation, .animation_layer {
-	height: 1000px;
+.animation,
+.animation_layer {
+  height: 1000px;
 }
 
 .animation {
   display: block;
-	position: relative;
-	z-index: 10;
+  position: relative;
+  z-index: 10;
 }
 
 .animation_layer {
-	background-position: bottom center;
-	background-size: auto 1038px;
-	background-repeat: repeat-x;
-	width: 100%;
-	position: absolute;
+  background-position: bottom center;
+  background-size: auto 1038px;
+  background-repeat: repeat-x;
+  width: 100%;
+  position: absolute;
 }
+
 .animation_layer.parallax {
-	position: fixed;
+  position: fixed;
 }
 
 #artback {
@@ -78,8 +80,9 @@
 #birds {
   background-image: url("./images/birds_of_sky.png");
   /* width: 100%; */
-  background-repeat: no-repeat; /* Evita la repetición de la imagen */
-  border:#210002 1px solid;
+  background-repeat: no-repeat;
+  /* Evita la repetición de la imagen */
+  border: #210002 1px solid;
   /* background-color: rgba(0, 0, 255, 1); */
   background-color: rgba(219, 234, 255, 1);
 
@@ -88,16 +91,17 @@
 #clouds {
   background-image: url("./images/Nubes/Nubes #6.png");
   /* width: 100%; */
-  background-repeat: no-repeat; /* Evita la repetición de la imagen */
-
+  background-repeat: no-repeat;
+  /* Evita la repetición de la imagen */
 
 }
 
 #sun {
   background-image: url("./images/Sol.png");
-  background-repeat: no-repeat; /* Evita la repetición de la imagen */
-
+  background-repeat: no-repeat;
+  /* Evita la repetición de la imagen */
 }
+
 
 #BOTON {
   background-color: #ffaf1b;
