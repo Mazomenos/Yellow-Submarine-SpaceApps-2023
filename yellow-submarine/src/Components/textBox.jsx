@@ -57,6 +57,14 @@ function TextBox() {
                     <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/planktonGlobe.jpeg" alt="globe" />
                 </div>
             </section>
+
+            <section>
+            <Link to="/jueguito">
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    Go to About
+                </button>
+            </Link>
+            </section>
         </>
     );
 }

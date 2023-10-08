@@ -95,7 +95,6 @@ function Home() {
              <div class="animation_layer parallax" id="walls"></div>
             <TextBox />
             <div class="animation_layer parallax" id="ocean_layer_3"></div>
-
           </ParallaxLayer>
 
           <ParallaxLayer offset={3.9} speed={0.25} class="bg-blue-900 bg-opacity-50">
