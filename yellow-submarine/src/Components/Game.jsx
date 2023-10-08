@@ -1,9 +1,9 @@
 import "../App.css";
 
 import { useRef } from 'react';
-
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
-import '../App.css'
+
+// import '../App.css'
 
 function Game() {
 
