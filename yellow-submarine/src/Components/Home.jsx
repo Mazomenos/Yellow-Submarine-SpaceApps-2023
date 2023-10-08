@@ -3,6 +3,7 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import { useNavigate, Outlet } from 'react-router-dom';
 
 import TextBox from './textBox';
+import Footer from './Footer';
 
 import '../App.css'
 
@@ -93,6 +94,12 @@ function Home() {
           <ParallaxLayer offset={1} speed={0.25}>
             <TextBox />
             <div class="animation_layer parallax" id="ocean_layer_3"></div>
+
+          </ParallaxLayer>
+
+          <ParallaxLayer offset={3.9} speed={0.25} class="bg-blue-900 bg-opacity-50">
+            <Footer />
+
           </ParallaxLayer>
 
         </Parallax>
