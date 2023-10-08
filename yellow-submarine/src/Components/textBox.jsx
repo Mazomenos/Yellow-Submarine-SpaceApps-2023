@@ -14,7 +14,7 @@ function TextBox() {
 
             <section>
                 <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
-                    <h2 class="mb-4 text-3xl font-extrabold text-amber-500 dark:text-amber-500 text-center">
+                    <h2 class="mb-4 text-3xl font-extrabold text-white dark:text-white text-center">
                     The Ocean and its organisms provide all of us with benefits and needs like access to food, oxygen
                     and maintaining the balance of the ecosystem
                     </h2>
