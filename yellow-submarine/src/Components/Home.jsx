@@ -24,7 +24,7 @@ function Home() {
 
       <div className="App">
         <Parallax pages={4.3} style={{ top: '0', left: '0' }} class="animation">
-          <ParallaxLayer offset={0} speed={0.25}>
+          <ParallaxLayer offset={0} speed={0.20}>
             <div class="animation_layer parallax" id="sun">
               <div class="container pt-44">
                 <h2 class="text-center text-2xl "> NASA SPACE APPS </h2>
@@ -32,10 +32,10 @@ function Home() {
               </div>
             </div>
           </ParallaxLayer>
-          <ParallaxLayer offset={0} speed={0.5}>
+          <ParallaxLayer offset={0} speed={0.25}>
             <div class="animation_layer parallax" id="backMountain"></div>
           </ParallaxLayer>
-          <ParallaxLayer offset={0} speed={0.5}>
+          <ParallaxLayer offset={0} speed={0.45}>
             <div class="animation_layer parallax" id="middleMountain"></div>
           </ParallaxLayer>
           <ParallaxLayer offset={.915}speed={0.5}>
@@ -87,7 +87,7 @@ function Home() {
             <div class="animation_layer parallax" id="sixthLayer"></div>
           </ParallaxLayer>
 
-          <ParallaxLayer offset={1} speed={0.25}>
+          <ParallaxLayer offset={1} speed={0.20} >
              <div class="animation_layer parallax" id="walls"></div>
             <TextBox />
           </ParallaxLayer>
