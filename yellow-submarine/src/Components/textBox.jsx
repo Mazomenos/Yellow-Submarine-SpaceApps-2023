@@ -34,10 +34,11 @@ function TextBox() {
                     </div>
                 </div>
 
-                <img src="../../../images/Nubes/Nube6.png" alt="nube" />
+                {/* <img src="../../../images/Nubes/Nube6.png" alt="nube" /> */}
 
             </div>
-            <footer id='textblock-footer'>Demo<a id="textblock-devsense" href="https://youtube.com/c/DevSense19">DevSense</a></footer>
+
+            {/* <footer id='textblock-footer'>Demo<a id="textblock-devsense" href="https://youtube.com/c/DevSense19">DevSense</a></footer> */}
         </div>
     );
 }

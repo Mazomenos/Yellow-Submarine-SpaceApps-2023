@@ -7,7 +7,7 @@ import TextBox from './textBox';
 import '../App.css'
 
 function Home() {
-  // const ref = useRef();
+  const ref = useRef();
 
   return (
     <>
@@ -22,14 +22,14 @@ function Home() {
       </div> */}
 
       <div className="App">
-        <Parallax pages={2} style={{ top: '0', left: '0' }} class="animation">
+        <Parallax pages={3} style={{ top: '0', left: '0' }} class="animation">
           <ParallaxLayer offset={0} speed={0}>
             <div>
               <img src="images/Nubes/Nube6.png" alt="nube" />
             </div>
           </ParallaxLayer>
 
-          <ParallaxLayer offset={0} speed={0.25}>
+          <ParallaxLayer class="pt-10" offset={0} speed={0.5}>
             <div class="animation_layer parallax" id="birds">
               <div class="container pt-44">
                 <h2 class="text-center text-2xl "> NASA SPACE APPS </h2>
@@ -38,12 +38,18 @@ function Home() {
             </div>
           </ParallaxLayer>
 
-          <ParallaxLayer offset={0} speed={0.3}>
+          <ParallaxLayer offset={0.1} speed={0.40}>
             <div class="animation_layer parallax" id="sun"></div>
           </ParallaxLayer>
-          
+
           <ParallaxLayer offset={0} speed={0.40}>
-            <div class="animation_layer parallax" id="manonmountain"></div>
+            <div class="animation_layer parallax" id="montain_back"></div>
+          </ParallaxLayer>
+          <ParallaxLayer class="pt-4" offset={0.1} speed={0.40}>
+            <div class="animation_layer parallax" id="montain_middle"></div>
+          </ParallaxLayer>
+          <ParallaxLayer offset={0.3} speed={0.40}>
+            <div class="animation_layer parallax" id="montain_front"></div>
           </ParallaxLayer>
           <ParallaxLayer offset={1} speed={0.25}>
             <TextBox />
