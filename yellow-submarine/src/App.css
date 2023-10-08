@@ -147,7 +147,10 @@
 #walls {
   background-image: url("./images/Walls.png");
   background-repeat: no-repeat;
-  width: 200%;
+  background-size: 63% 4000px;
+  background-position: 100% 0;
+  width: 160%;
+  height: 4000px;
   left: 20%; /* Alineación horizontal al centro */
   transform: translateX(-50%); /* Alineación horizontal al centro */
 }
