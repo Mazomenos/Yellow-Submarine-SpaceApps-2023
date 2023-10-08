@@ -24,7 +24,7 @@ function Home() {
       <div className="App">
         <Parallax pages={2} style={{ top: '0', left: '0' }} class="animation">
           <ParallaxLayer offset={0} speed={0.25}>
-            <div class="animation_layer parallax" id="artback">
+            <div class="animation_layer parallax" id="birds">
               <div class="container pt-44">
                 <h2 class="text-center text-2xl "> NASA SPACE APPS </h2>
                 <h1 class="text-center text-9xl "> PLANKTON </h1>
