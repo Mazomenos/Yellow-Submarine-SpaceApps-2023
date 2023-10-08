@@ -69,60 +69,7 @@
 #birds {
   background-image: url("./images/birds_of_sky.png");
   /* width: 100%; */
-<<<<<<< HEAD
-  background-repeat: no-repeat;
-  /* Evita la repetición de la imagen */
-  /* border: #210002 1px solid; */
-  /* background-color: rgba(0, 0, 255, 1); */
-  background-color: rgba(219, 234, 255, 1);
-
-}
-
-#clouds {
-  background-image: url("./images/Nubes/Nubes #6.png");
-  /* width: 100%; */
-  background-repeat: no-repeat;
-  /* Evita la repetición de la imagen */
-
-}
-
-#sun {
-  background-image: url("./images/Sol.png");
-  background-repeat: no-repeat;
-  /* Evita la repetición de la imagen */
-  /* background-color: rgba(219, 234, 255, 1); */
-}
-
-#montain_front {
-  background-image: url("./images/AstronautaMontain.png");
-  background-repeat: no-repeat;
-
-}
-
-#montain_middle {
-  background-image: url("./images/MontainMiddle.png");
-  background-repeat: no-repeat;
-  /* padding-top: 5em; */
-  /* background-size: 200px 200px;  */
-
-}
-
-#montain_back {
-  background-image: url("./images/MontainBack.png");
-  background-repeat: no-repeat;
-  /* padding-top: 50%; */
-
-}
-
-#ocean_layer_3 {
-
-  background-image: url("./images/capa3.png");
-  background-repeat: no-repeat;
-  width: 100vw 100vh;
-  size: auto;
-=======
   background-repeat: no-repeat; /* Evita la repetición de la imagen */
->>>>>>> AlexVite
 }
 
 #sun {
