@@ -78,7 +78,6 @@
 }
 
 #birds {
-
   background-image: url("./images/birds_of_sky.png");
   /* width: 100%; */
   background-repeat: no-repeat;
@@ -106,7 +105,7 @@
 
 #montain_front {
   background-image: url("./images/AstronautaMontain.png");
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
 
 }
 
@@ -114,6 +113,7 @@
   background-image: url("./images/MontainMiddle.png");
   background-repeat: no-repeat;
   /* padding-top: 5em; */
+  /* background-size: 200px 200px;  */
 
 }
 
@@ -122,6 +122,14 @@
   background-repeat: no-repeat;
   /* padding-top: 50%; */
 
+}
+
+#ocean_layer_3 {
+
+  background-image: url("./images/capa3.png");
+  background-repeat: no-repeat;
+  width: 100vw 100vh;
+  size: auto;
 }
 
 #BOTON {
