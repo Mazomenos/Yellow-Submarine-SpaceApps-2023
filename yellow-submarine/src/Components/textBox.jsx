@@ -11,20 +11,44 @@ function TextBox() {
 
     return (
         <>
+
+            <section>
+                <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
+                    <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-amber-500 dark:text-amber-500">
+                    The Ocean and its organisms provide all of us with benefits and needs like access to food, oxygen
+                    and maintaining the balance of the ecosystem
+                    </h2>
+                </div>
+            </section>
+
+
+            <section>
+                <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
+                    <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
+                        <div class="text-white sm:text-lg dark:text-white">
+                            <h1 class="mb-4 text-3xl font-extrabold tracking-tight text-amber-500 dark:text-amber-500"> PITOPLANKTON </h1>
+                            <p class="mb-8 font-light lg:text-xl">
+                                The Ocean and its organisms provide all of us with benefits and needs like access to food, oxygen
+                                and maintaining the balance of the ecosystem
+                            </p>
+                        </div>
+                        {/* <img class="hidden w-full rounded-full lg:mb-0 lg:flex " src="./images/planktonGlobe.jpeg" alt="globe" /> */}
+                        {/* <img class="hidden w-64 h-64 rounded-full lg:mb-0 lg:flex" src="./images/planktonGlobe.jpeg" alt="globe" /> */}
+                        <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/planktonGlobe.jpeg" alt="globe" />
+
+                    </div>
+                </div>
+            </section>
+
             <section>
                 <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
                     <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
                         <div class="text-gray-500 sm:text-lg dark:text-gray-400">
                             <h1 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"> PITOPLANKTON </h1>
                             <p class="mb-8 font-light lg:text-xl">
-                                placton wow placton wow placton wow placton wow placton wow placton wow placton wow placton wow
-                                placton wow placton wow placton wow placton wow placton wow placton wow placton wow placton wow
-                                placton wow placton wow placton wow
+                                One of the Organisms in the ocean that have a big impact for us are Phythonplankton
                             </p>
                         </div>
-                        {/* <img class="hidden w-full rounded-full lg:mb-0 lg:flex " src="./images/planktonGlobe.jpeg" alt="globe" /> */}
-                        {/* <img class="hidden w-64 h-64 rounded-full lg:mb-0 lg:flex" src="./images/planktonGlobe.jpeg" alt="globe" /> */}
-                        <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/planktonGlobe.jpeg" alt="globe" />
 
                     </div>
                 </div>
@@ -43,18 +67,21 @@ function TextBox() {
                 </figure>
             </section>
 
+
+
             <section>
                 <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
 
                     <div class="text-gray-500 sm:text-lg dark:text-gray-400">
                         <h1 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"> PITOPLANKTON </h1>
                         <p class="mb-8 font-light lg:text-xl">
-                            placton wow placton wow placton wow placton wow placton wow placton wow placton wow placton wow
-                            placton wow placton wow placton wow placton wow placton wow placton wow placton wow placton wow
-                            placton wow placton wow placton wow
+                            Phythonplanktonare microorganisms that are plant-like and generate resources like nutrients and oxygen
+                            through photosynthesis
                         </p>
                     </div>
-                    <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/planktonGlobe.jpeg" alt="globe" />
+                    <p>
+                        adasdfdfdf
+                    </p>
                 </div>
             </section>
         </>
