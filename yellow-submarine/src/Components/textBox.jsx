@@ -55,6 +55,7 @@ function TextBox() {
                         </p>
                     </div>
                     <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/planktonGlobe.jpeg" alt="globe" />
+                <button id='BOTON' onClick={Jueguito}> hola </button>
                 </div>
             </section>
         </>
