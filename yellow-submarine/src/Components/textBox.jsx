@@ -26,9 +26,9 @@ function TextBox() {
                 <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
                     <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
                         <div class="text-white sm:text-lg dark:text-white">
-                            <h1 class="mb-4 text-3xl font-extrabold tracking-tight text-amber-500 dark:text-amber-500"> PITOPLANKTON </h1>
+                            <h1 class="mb-4 text-3xl font-extrabold tracking-tight text-amber-500 dark:text-amber-500"> PHYTHOPLANKTON </h1>
                             <p class="mb-8 font-light lg:text-xl">
-                                One of the organisms in the Ocean that have a big impact for us are Phythonplankton
+                                One of the organisms in the Ocean that have a big impact for us are Phythoplankton
                             </p>
                             </div>
                         <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/plankton_aereo.png" alt="globe" />
@@ -55,9 +55,9 @@ function TextBox() {
                 <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
                     <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
                         <div class="text-white sm:text-lg dark:text-white">
-                            <h1 class="mb-4 text-3xl font-extrabold tracking-tight text-amber-500 dark:text-amber-500"> PITOPLANKTON </h1>
+                            <h1 class="mb-4 text-3xl font-extrabold tracking-tight text-amber-500 dark:text-amber-500"> PHYTHOPLANKTON </h1>
                             <p class="mb-8 font-light lg:text-xl">
-                                Phythonplankton are microorganisms that are plant-like and generate resources like nutrients and oxygen
+                                Phythoplankton are microorganisms that are plant-like and generate resources like nutrients and oxygen
                                 through photosyntesis
                             </p>
                             </div>
